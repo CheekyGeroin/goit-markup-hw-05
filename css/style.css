@@ -58,7 +58,17 @@ ul {
   display: flex;
 }
 .nav {
+  position: relative;
   margin-right: 50px;
+}
+.link::after .active{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+
 }
 .contact-list {
   display: flex;
