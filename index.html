@@ -53,7 +53,13 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="hero-button">Заказать услугу</button>
+          <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <p></p>
+              <button type="button" class="close-button" data-modal-close>&#10006</button>
+            </div>
+          </div>
         </div>
       </section>
       <!--Особенности-->
@@ -120,6 +126,9 @@
                 width="370"
                 height="294"
               />
+              <div class="img-container">
+                <p class="img-text">Десктопные приложения</p>
+              </div>
             </li>
             <li class="img-lists-item">
               <img
@@ -128,6 +137,9 @@
                 width="370"
                 height="294"
               />
+              <div class="img-container">
+                <p class="img-text">Мобильные приложения</p>
+              </div>
             </li>
             <li class="img-lists-item">
               <img
@@ -136,6 +148,9 @@
                 width="370"
                 height="294"
               />
+              <div class="img-container">
+                <p class="img-text">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
